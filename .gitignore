@@ -19,3 +19,6 @@
 # Sphinx
 db/sphinx
 config/*.sphinx.conf
+
+# Vagrant
+.vagrant
