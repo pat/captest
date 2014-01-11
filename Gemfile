@@ -18,4 +18,8 @@ gem 'thinking-sphinx',
 group :development do
   gem 'capistrano',       '~> 3.0.1'
   gem 'capistrano-rails', '~> 1.1.0'
+  gem 'capistrano-unicorn',
+    git:    'git://github.com/inbeom/capistrano-unicorn.git',
+    branch: 'capistrano3',
+    ref:    'a91700efb1222567d1baee9ada45b04716a54b63'
 end
