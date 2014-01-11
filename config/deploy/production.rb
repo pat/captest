@@ -18,7 +18,7 @@ role :db,  %w{vagrant@localhost}
 # server 'example.com', user: 'deploy', roles: %w{web app}, my_property: :my_value
 
 set :ssh_options, {
-  :forward_agent => true,
+  # :forward_agent => true,
   :port          => 2222,
   :keys          => ['~/.vagrant.d/insecure_private_key']
 }

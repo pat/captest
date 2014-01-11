@@ -11,6 +11,15 @@ GIT
       middleware (>= 0.1.0)
       riddle (>= 1.5.9)
 
+GIT
+  remote: git://github.com/inbeom/capistrano-unicorn.git
+  revision: a91700efb1222567d1baee9ada45b04716a54b63
+  ref: a91700efb1222567d1baee9ada45b04716a54b63
+  branch: capistrano3
+  specs:
+    capistrano-unicorn (0.3.0)
+      capistrano (~> 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -145,6 +154,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano (~> 3.0.1)
   capistrano-rails (~> 1.1.0)
+  capistrano-unicorn!
   jquery-rails
   mysql2 (= 0.3.14)
   pg (= 0.17.1)
