@@ -2,3 +2,4 @@ production:
   pid_file: /var/www/captest/shared/production.searchd.pid
   indices_location: /var/www/captest/shared/db/sphinx
   configuration_file: /var/www/captest/shared/production.sphinx.conf
+  utf8: false
