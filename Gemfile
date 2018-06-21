@@ -10,10 +10,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 
-gem 'thinking-sphinx',
-  git:    'git://github.com/pat/thinking-sphinx.git',
-  branch: 'develop',
-  ref:    '724d9fd958adacf47c31e6b218a03d15341c48d6'
+gem 'thinking-sphinx', '3.1.1'
 
 group :development do
   gem 'capistrano',       '~> 3.0.1'
