@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.1'
-gem 'pg', '0.17.1'
-gem 'mysql2', '0.3.14'
+gem 'rails', '~> 4.2'
+gem 'pg', '~> 0.17.1'
+gem 'mysql2', '~> 0.4.10'
 gem 'unicorn', '4.7.0'
 
 gem 'sass-rails', '~> 4.0.0'
