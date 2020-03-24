@@ -1,16 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 4.2'
-gem 'pg', '~> 0.17.1'
-gem 'mysql2', '~> 0.4.10'
-gem 'unicorn', '4.7.0'
+gem 'rails', '~> 5.0'
+gem 'pg', '~> 0.17'
+gem 'mysql2', '~> 0.5.0'
+gem 'unicorn', '~> 5.5'
 
-gem 'sass-rails', '~> 4.0.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-
-gem 'thinking-sphinx', '3.1.1'
+gem 'thinking-sphinx', '~> 4.4'
 
 group :development do
   gem 'capistrano',       '~> 3.0.1'
